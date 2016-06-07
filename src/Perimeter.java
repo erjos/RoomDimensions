@@ -4,6 +4,7 @@ public class Perimeter {
 	
 	//creating a method to validate data type of entry as "double"
 	//Question: confused why I can name this object "scan" but it's not consistent through the rest of the program
+	// maybe it's because all we need to do is identify that the type of object is a scanner object
 	public static double validate(Scanner scan){
 		//adding while loop that re-prints the error message as long as the scan.hasNextDouble is "false"
 		while(!scan.hasNextDouble()){
